@@ -3,3 +3,17 @@ __pycache__/
 .vscode/
 *.pyc
 .uuid
+# Local checkpoints (downloaded separately)
+checkpoints/ootd/
+checkpoints/humanparsing
+checkpoints/openpose/
+checkpoints/clip-vit-large-patch14/
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Output
+run/images_output/*.png
+run/images_output/*.jpg
